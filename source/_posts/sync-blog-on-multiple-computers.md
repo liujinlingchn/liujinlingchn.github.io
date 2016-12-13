@@ -33,3 +33,9 @@ hexo写博客,确实减少了维护博客投入的精力,但我们大多数不�
 
 此时, B电脑环境配置完毕, 和A电脑一样了, 可以发布文章并推送了  
 每次在操作前, 要记得先更新下当前仓库
+
+### 多环境操作问题集合
+
+#### FATAL error: The requested URL returned error: 403 Forbidden while accessing https://github.com/xxx/xxx.github.io.git/info/refs
+出现这种问题, 应该是_config配置中的仓库地址和添加远程地址的方式不一致, 比如repo是https, 但是在git remote add origin
+时使用的是ssh方式, 因此把_config中repo修改成一致, 要么是https, 要么是ssh方式
