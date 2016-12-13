@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>利用hexo生成github-page页面 | 刘金令的个人网站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="利用hexo编辑文章, 并上传到github生成静态网页的常见命令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用hexo生成github-page页面">
+<meta property="og:url" content="http://yoursite.com/2016/12/02/gen-github_page-byhexo/index.html">
+<meta property="og:site_name" content="刘金令的个人网站">
+<meta property="og:description" content="利用hexo编辑文章, 并上传到github生成静态网页的常见命令">
+<meta property="og:image" content="http://yoursite.com/images/vim键盘图.png">
+<meta property="og:updated_time" content="2016-12-02T10:39:59.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="利用hexo生成github-page页面">
+<meta name="twitter:description" content="利用hexo编辑文章, 并上传到github生成静态网页的常见命令">
+<meta name="twitter:image" content="http://yoursite.com/images/vim键盘图.png">
+  
+    <link rel="alternate" href="/atom.xml" title="刘金令的个人网站" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">刘金令的个人网站</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Liu Jinling&#39;s Personal Website</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-gen-github_page-byhexo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/02/gen-github_page-byhexo/" class="article-date">
+  <time datetime="2016-12-02T01:54:36.000Z" itemprop="datePublished">2016-12-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      利用hexo生成github-page页面
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>利用hexo编辑文章, 并上传到github生成静态网页的常见命令<br><a id="more"></a><!--more--></p>
+<h1 id="添加一个网页"><a href="#添加一个网页" class="headerlink" title="添加一个网页"></a>添加一个网页</h1><ol>
+<li><p>生成一个markdown文章</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo new [layout] &apos;page-name&apos;</div><div class="line"># 这个page-name是文章最终路径名, 而不是文章的标题, 文章的标题需要在最上方的title上修改</div><div class="line"># 如果没有设置layout, 使用_config.yml中的default_layout参数代替</div></pre></td></tr></table></figure>
+</li>
+<li><p>执行上个命令后, 会提示md文件生成的位置, 编辑这个文件, 可以在tags编辑标签, 多个标签用[]</p>
+</li>
+<li><p>生成</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure>
+</li>
+<li><p>测试</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo server</div><div class="line"># 运行后, 可以在本地访问127.0.0.1:4000 , 看是否是自己期望的样式, 如果不是重复步骤2</div></pre></td></tr></table></figure>
+</li>
+<li><p>如果是自己期望的, 就可以上传到github上</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><ol>
+<li><p>如何在页面显示阅读全文<br>需要在想隐藏内容上面加上一行  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;!--more--&gt; &lt;!--more--&gt;</div></pre></td></tr></table></figure>
+</li>
+<li><p>如何在文章中加入图片<br>最简单的方式是在source中加入一个images文件夹, 然后在想要引入的地方使用<br>看官网, 这样貌似不好, 但目前没发现, 有问题再修正</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](/images/img-name.jpg)</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="/images/vim键盘图.png" alt=""></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/12/02/gen-github_page-byhexo/" data-id="ciwn9685m00008l1savou4xji" class="article-share-link">Delen</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/12/02/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Nieuwer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Labels</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archieven</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recente berichten</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/12/11/sync-blog-on-multiple-computers/">多台电脑同步博客</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/02/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/02/gen-github_page-byhexo/">利用hexo生成github-page页面</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 刘金令<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
