@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/12/11/sync-blog-on-multiple-computers/index.html">
 <meta property="og:site_name" content="刘金令的个人网站">
 <meta property="og:description" content="hexo写博客,确实减少了维护博客投入的精力,但我们大多数不可能一直在同一台写博客,所以同步hexo生成的博客势在必行">
-<meta property="og:updated_time" content="2016-12-11T05:11:43.000Z">
+<meta property="og:updated_time" content="2016-12-13T09:41:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="多台电脑同步博客">
 <meta name="twitter:description" content="hexo写博客,确实减少了维护博客投入的精力,但我们大多数不可能一直在同一台写博客,所以同步hexo生成的博客势在必行">
@@ -111,11 +111,12 @@
 <li>npm install hexo-deployer-git –save</li>
 </ol>
 <p>此时, B电脑环境配置完毕, 和A电脑一样了, 可以发布文章并推送了<br>每次在操作前, 要记得先更新下当前仓库</p>
+<h3 id="多环境操作问题集合"><a href="#多环境操作问题集合" class="headerlink" title="多环境操作问题集合"></a>多环境操作问题集合</h3><h4 id="FATAL-error-The-requested-URL-returned-error-403-Forbidden-while-accessing-https-github-com-xxx-xxx-github-io-git-info-refs"><a href="#FATAL-error-The-requested-URL-returned-error-403-Forbidden-while-accessing-https-github-com-xxx-xxx-github-io-git-info-refs" class="headerlink" title="FATAL error: The requested URL returned error: 403 Forbidden while accessing https://github.com/xxx/xxx.github.io.git/info/refs"></a>FATAL error: The requested URL returned error: 403 Forbidden while accessing <a href="https://github.com/xxx/xxx.github.io.git/info/refs" target="_blank" rel="external">https://github.com/xxx/xxx.github.io.git/info/refs</a></h4><p>出现这种问题, 应该是_config配置中的仓库地址和添加远程地址的方式不一致, 比如repo是https, 但是在git remote add origin<br>时使用的是ssh方式, 因此把_config中repo修改成一致, 要么是https, 要么是ssh方式</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/12/11/sync-blog-on-multiple-computers/" data-id="ciwnbaps10003401slldfrjqn" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/12/11/sync-blog-on-multiple-computers/" data-id="ciwnbiyhj0001n91sbn88hoya" class="article-share-link">Partager</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
@@ -125,15 +126,6 @@
   
     
 <nav id="article-nav">
-  
-    <a href="/2016/12/13/test/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Récent</strong>
-      <div class="article-nav-title">
-        
-          测试下
-        
-      </div>
-    </a>
   
   
     <a href="/2016/12/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -187,10 +179,6 @@
     <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2016/12/13/test/">测试下</a>
-          </li>
         
           <li>
             <a href="/2016/12/11/sync-blog-on-multiple-computers/">多台电脑同步博客</a>
