@@ -63,7 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
+
+# 多说评论
+duoshuo_shortname: liujinlingchn
+# 百度统计
+baidu_analytics: 3507d103ad44b486848ff84b2112ac8a
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
