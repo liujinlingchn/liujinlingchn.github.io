@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
@@ -38,7 +38,7 @@ menu:
   #categories: /categories
   #about: /about
   archives: /archives
-  #tags: /tags
+  tags: /tags
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -130,8 +130,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/liujinlingchn
 
 
 # Social Links Icons
@@ -186,11 +187,12 @@ sidebar:
 
 
 # Blogrolls
-#links_title: Links
-#links_layout: block
+# 友情链接
+links_title: Links
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  MacTalk: http://macshuo.com/
 
 
 # ---------------------------------------------------------------
@@ -217,10 +219,11 @@ post_meta:
 
 
 # Wechat Subscriber
-#wechat_subscriber:
-  #enabled: true
-  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
+# 微信收款
+wechat_subscriber:
+  enabled: true
+  qcode: /images/WechatRecvMoney.jpg
+  description: 您的支持将鼓励我继续创作!
 
 
 
@@ -242,7 +245,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -306,11 +309,12 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
+  admin_enable: true
+  user_id: 6363764623220409000
+  admin_nickname: 博主
 
-
+# 多说热评文章
+duoshuo_hotartical: true
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
