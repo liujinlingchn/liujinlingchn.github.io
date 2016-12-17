@@ -105,7 +105,7 @@
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: '0',
+      userId: '6363764623220409000',
       author: '博主'
     },
     algolia: {
@@ -207,6 +207,16 @@
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
           </a>
         </li>
       
@@ -323,10 +333,14 @@
 
       
         
-          
-            <p>hexo默认主题使用landscape, 个人觉得不太好看, 但是hexo支持自定义主题, 也可以使用别人定制好的,<br>可以去<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">hexo主题</a>寻找自己喜欢的主题, 个人使用Next主题</p>
-
-          
+          <p>hexo默认主题使用landscape, 个人觉得不太好看, 但是hexo支持自定义主题, 也可以使用别人定制好的,<br>可以去<a href="https://github.com/hexojs/hexo/wiki/Themes">hexo主题</a>寻找自己喜欢的主题, 个人使用Next主题<br>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/12/14/extend-hexo/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -784,10 +798,10 @@
 
           
             <div class="site-state-item site-state-tags">
-              
+              <a href="/tags">
                 <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
-              
+              </a>
             </div>
           
 
@@ -797,12 +811,37 @@
 
         <div class="links-of-author motion-element">
           
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/liujinlingchn" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
         </div>
 
         
         
 
         
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://macshuo.com/" title="MacTalk" target="_blank">MacTalk</a>
+                </li>
+              
+            </ul>
+          </div>
         
 
         
@@ -943,6 +982,10 @@
   </script>
 
   
+    
+      
+      <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js?v=5.1.0"></script>
     
     
     <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
