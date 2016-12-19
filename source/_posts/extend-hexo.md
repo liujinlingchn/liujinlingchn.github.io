@@ -159,6 +159,21 @@ duoshuo_info:
 ```
 admin_enable用于展示「博主」文字,表明评论者是博主, 此字段需要user_id 和admin_nickname字段,user_id可以在登录多说后,并点击「我的主页」,user_id是网址最后面那串数字
 
+### 搜索
+由于Swiftype等搜索已不能用, 我目前使用Local Search
+1. 安装 hexo-generator-searchdb
+```
+npm install hexo-generator-searchdb --save
+```
+2. 编辑站点配置文件, 新增以下内容到任意位置
+```
+search:
+    path: search.xml
+    field: post
+    format: html
+    limit: 10000
+```
+
 ## SEO
 
 ### sitemap
