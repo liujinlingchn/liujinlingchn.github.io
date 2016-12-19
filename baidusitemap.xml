@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/14/extend-hexo/</loc>
+    <lastmod>2016-12-18T04:07:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>扩展hexo</title>
+        <pubTime>2016-12-14T02:45:05.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>Next</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/11/sync-blog-on-multiple-computers/</loc>
+    <lastmod>2016-12-13T09:41:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>多台电脑同步博客</title>
+        <pubTime>2016-12-10T20:46:26.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/02/gen-github_page-byhexo/</loc>
+    <lastmod>2016-12-02T10:39:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>利用hexo生成github-page页面</title>
+        <pubTime>2016-12-02T01:54:36.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/02/hello-world/</loc>
+    <lastmod>2016-12-02T02:01:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-12-02T02:01:49.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>

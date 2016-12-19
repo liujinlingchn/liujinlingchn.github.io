@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/2016/12/14/extend-hexo/</loc>
+    
+    <lastmod>2016-12-18T04:07:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2016-12-17T08:56:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/12/11/sync-blog-on-multiple-computers/</loc>
+    
+    <lastmod>2016-12-13T09:41:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/12/02/gen-github_page-byhexo/</loc>
+    
+    <lastmod>2016-12-02T10:39:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/12/02/hello-world/</loc>
+    
+    <lastmod>2016-12-02T02:01:49.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
