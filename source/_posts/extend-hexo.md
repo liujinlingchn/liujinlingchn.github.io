@@ -159,4 +159,23 @@ duoshuo_info:
 ```
 admin_enable用于展示「博主」文字,表明评论者是博主, 此字段需要user_id 和admin_nickname字段,user_id可以在登录多说后,并点击「我的主页」,user_id是网址最后面那串数字
 
+## SEO
+
+### sitemap
+给你的hexo站点添加sitemap网站地图
+1. 安装hexo的sitemap网站地图生成插件
+```
+npm install hexo-generator-sitemap --save
+npm install hexo-generator-baidu-sitemap --save
+```
+2. 编辑站点配置文件
+```
+# sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+```
+3. 配置成功后, hexo编译后会在站点根目录下生成sitemap.xml和baidusitemap.xml
+
 {% cq %} 更多内容请去[Next官网](http://theme-next.iissnan.com/)查看 {% endcq %}

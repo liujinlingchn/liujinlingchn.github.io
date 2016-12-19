@@ -71,6 +71,13 @@ duoshuo_shortname: liujinlingchn
 # 百度统计
 baidu_analytics: 3507d103ad44b486848ff84b2112ac8a
 
+# sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
