@@ -174,6 +174,25 @@ search:
     limit: 10000
 ```
 
+### RSS
+使用hexo-generator-feed模块即可
+1. 安装hexo-generator-feed
+```
+npm install hexo-generator-feed --save
+```
+2. 编辑站点配置文件, 新增一下配置
+```
+# RSS
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+```
+3. 编辑主题配置文件
+```
+rss: /atom.xml
+```
+
 ## SEO
 
 ### sitemap
