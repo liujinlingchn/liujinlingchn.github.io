@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-19T02:41:18.000Z</updated>
+  <updated>2017-01-08T09:00:07.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何高效使用MAC</title>
+    <link href="http://yoursite.com/2017/01/06/how-to-use-mac-efficiently/"/>
+    <id>http://yoursite.com/2017/01/06/how-to-use-mac-efficiently/</id>
+    <published>2017-01-06T10:15:35.000Z</published>
+    <updated>2017-01-08T09:00:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>接触mac接近半年时间了, 也说不上有多喜欢,至少现在我就发现一个优点, 就是觉得MAC主要就是开发方便点, 并没有什么装逼加成,Win系列也没那么烂.<br>大家谁不是先接触的win系列, 不要过河拆桥, 用上mac就骂win, 现在工作时大部分时间都用mac, 自己的还是win,回头慢慢攒点钱,买个mac对比下</p>
+<h1 id="配置开发环境"><a href="#配置开发环境" class="headerlink" title="配置开发环境"></a>配置开发环境</h1><p>开发环境其实和在别的环境下都差不多<br><a id="more"></a><!--more--></p>
+<h2 id="配置终端"><a href="#配置终端" class="headerlink" title="配置终端"></a>配置终端</h2><p>win下推荐xshell, 可惜mac下没有, iTerm2 配合sshpass, 可以勉强一战</p>
+<h2 id="配置shell"><a href="#配置shell" class="headerlink" title="配置shell"></a>配置shell</h2><p>首推oh-my-zsh, 具体安装配置先略过, 占个坑</p>
+<h2 id="配置tmux"><a href="#配置tmux" class="headerlink" title="配置tmux"></a>配置tmux</h2><p>终端复用神器, 安装配置也占坑</p>
+<h1 id="MAC软件推荐"><a href="#MAC软件推荐" class="headerlink" title="MAC软件推荐"></a>MAC软件推荐</h1><h2 id="常用软件推荐"><a href="#常用软件推荐" class="headerlink" title="常用软件推荐"></a>常用软件推荐</h2><ol>
+<li>邮件推荐Foxmail, 免费而且功能强大,自带的有内存泄漏</li>
+<li>PDF阅读器推荐Foxit Reader</li>
+<li>微软家的office系列, 苹果自带的还是不行, 不是一个数量级</li>
+<li>远程Team Viewer</li>
+<li>连接数据库, Sequel Pro</li>
+<li>编辑器: Sublime Text</li>
+</ol>
+<h2 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h2><p>常用的免费软件, 可以去App Store中下载, 但一般更新比较慢, 直接去官网下载也可以,mac家有很多是付费使用,被微软和大环境下惯坏的我, 还是不太适应, 关键还是穷.<br>如果大家手中富裕, 还是推荐购买, 实在不行, 可以去下面三家看看,也许有收获, 没有的话就用伟大的谷歌</p>
+<ol>
+<li><a href="http://soft.macx.cn/index.html" target="_blank" rel="external">MACX</a></li>
+<li><a href="http://www.macappbox.com/" target="_blank" rel="external">MAC苹果盒子</a></li>
+<li><a href="http://www.0daydown.com/category/software/mac" target="_blank" rel="external">0DayDown</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;接触mac接近半年时间了, 也说不上有多喜欢,至少现在我就发现一个优点, 就是觉得MAC主要就是开发方便点, 并没有什么装逼加成,Win系列也没那么烂.&lt;br&gt;大家谁不是先接触的win系列, 不要过河拆桥, 用上mac就骂win, 现在工作时大部分时间都用mac, 自己的还是win,回头慢慢攒点钱,买个mac对比下&lt;/p&gt;
+&lt;h1 id=&quot;配置开发环境&quot;&gt;&lt;a href=&quot;#配置开发环境&quot; class=&quot;headerlink&quot; title=&quot;配置开发环境&quot;&gt;&lt;/a&gt;配置开发环境&lt;/h1&gt;&lt;p&gt;开发环境其实和在别的环境下都差不多&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="mac" scheme="http://yoursite.com/tags/mac/"/>
+    
+  </entry>
   
   <entry>
     <title>扩展hexo</title>
