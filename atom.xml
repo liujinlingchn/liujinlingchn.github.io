@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-08T09:00:07.000Z</updated>
+  <updated>2017-01-11T05:53:37.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>mac安装ipython</title>
+    <link href="http://yoursite.com/2017/01/11/mac-install-ipython/"/>
+    <id>http://yoursite.com/2017/01/11/mac-install-ipython/</id>
+    <published>2017-01-11T03:26:19.000Z</published>
+    <updated>2017-01-11T05:53:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>原来都是在公司的开发机上写代码, 有一次开发机有问题, 导致不能使用, 线下又没有环境, 就想着自己在线下也搭建一套,<br>这样开发机不能用, 至少还能线下测试, 一路brew install, 很顺利, 到安装ipython的时候, 死活装不上</p>
+<a id="more"></a>&lt;–more–&gt;
+<p>报权限错误, sudo也不行, 心想root都不行了, 这尼玛神了, google了下, 原来mac下最新加了个SIP的东西, 现在有两种解决方法</p>
+<ol>
+<li>取消SIP<blockquote>
+<p>重启电脑，按住Command+R(直到出现苹果标志)进入Recovery Mode(恢复模式)<br>左上角菜单里找到实用工具 -&gt; 终端<br>输入csrutil disable回车<br>重启Mac即可<br>如果想重新启动SIP机制重复上述步骤改用csrutil enable即可</p>
+</blockquote>
+</li>
+<li>基于用户的权限来安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install ipython --user -U</div></pre></td></tr></table></figure>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原来都是在公司的开发机上写代码, 有一次开发机有问题, 导致不能使用, 线下又没有环境, 就想着自己在线下也搭建一套,&lt;br&gt;这样开发机不能用, 至少还能线下测试, 一路brew install, 很顺利, 到安装ipython的时候, 死活装不上&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="mac" scheme="http://yoursite.com/tags/mac/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何高效使用MAC</title>
     <link href="http://yoursite.com/2017/01/06/how-to-use-mac-efficiently/"/>
     <id>http://yoursite.com/2017/01/06/how-to-use-mac-efficiently/</id>
     <published>2017-01-06T10:15:35.000Z</published>
-    <updated>2017-01-08T09:00:07.000Z</updated>
+    <updated>2017-01-10T07:38:25.000Z</updated>
     
     <content type="html"><![CDATA[<p>接触mac接近半年时间了, 也说不上有多喜欢,至少现在我就发现一个优点, 就是觉得MAC主要就是开发方便点, 并没有什么装逼加成,Win系列也没那么烂.<br>大家谁不是先接触的win系列, 不要过河拆桥, 用上mac就骂win, 现在工作时大部分时间都用mac, 自己的还是win,回头慢慢攒点钱,买个mac对比下</p>
 <h1 id="配置开发环境"><a href="#配置开发环境" class="headerlink" title="配置开发环境"></a>配置开发环境</h1><p>开发环境其实和在别的环境下都差不多<br><a id="more"></a><!--more--></p>
@@ -34,6 +67,10 @@
 <li>远程Team Viewer</li>
 <li>连接数据库, Sequel Pro</li>
 <li>编辑器: Sublime Text</li>
+<li>PopClip: 选择弹出一个小窗口, 可以方便的复制,搜索等, 有很多插件</li>
+<li>Manico: 比Command + Tap 更方便的程序切换</li>
+<li>Alfred: 大杀器</li>
+<li>Cleanmymac: 清理MAC</li>
 </ol>
 <h2 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h2><p>常用的免费软件, 可以去App Store中下载, 但一般更新比较慢, 直接去官网下载也可以,mac家有很多是付费使用,被微软和大环境下惯坏的我, 还是不太适应, 关键还是穷.<br>如果大家手中富裕, 还是推荐购买, 实在不行, 可以去下面三家看看,也许有收获, 没有的话就用伟大的谷歌</p>
 <ol>
@@ -41,6 +78,8 @@
 <li><a href="http://www.macappbox.com/" target="_blank" rel="external">MAC苹果盒子</a></li>
 <li><a href="http://www.0daydown.com/category/software/mac" target="_blank" rel="external">0DayDown</a></li>
 </ol>
+<p>注意: 有些软件下载安装后会提示安装包破坏, 可以在设置-&gt;安全性与隐私-&gt;允许从以下位置下载的应用-&gt; 选择任意来源</p>
+<h1 id="高效的macbook工作环境配置"><a href="#高效的macbook工作环境配置" class="headerlink" title="高效的macbook工作环境配置"></a>高效的macbook工作环境配置</h1><p><a href="http://xialeizhou.com/2016/06/23/%E9%AB%98%E6%95%88macbook%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" target="_blank" rel="external">高效的macbook工作环境配置</a></p>
 ]]></content>
     
     <summary type="html">

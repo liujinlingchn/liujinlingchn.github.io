@@ -3,9 +3,16 @@
   
     
     <entry>
+      <title><![CDATA[mac安装ipython]]></title>
+      <url>%2F2017%2F01%2F11%2Fmac-install-ipython%2F</url>
+      <content type="text"><![CDATA[原来都是在公司的开发机上写代码, 有一次开发机有问题, 导致不能使用, 线下又没有环境, 就想着自己在线下也搭建一套,这样开发机不能用, 至少还能线下测试, 一路brew install, 很顺利, 到安装ipython的时候, 死活装不上 &lt;–more–&gt; 报权限错误, sudo也不行, 心想root都不行了, 这尼玛神了, google了下, 原来mac下最新加了个SIP的东西, 现在有两种解决方法 取消SIP 重启电脑，按住Command+R(直到出现苹果标志)进入Recovery Mode(恢复模式)左上角菜单里找到实用工具 -&gt; 终端输入csrutil disable回车重启Mac即可如果想重新启动SIP机制重复上述步骤改用csrutil enable即可 基于用户的权限来安装1pip install ipython --user -U]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[如何高效使用MAC]]></title>
       <url>%2F2017%2F01%2F06%2Fhow-to-use-mac-efficiently%2F</url>
-      <content type="text"><![CDATA[接触mac接近半年时间了, 也说不上有多喜欢,至少现在我就发现一个优点, 就是觉得MAC主要就是开发方便点, 并没有什么装逼加成,Win系列也没那么烂.大家谁不是先接触的win系列, 不要过河拆桥, 用上mac就骂win, 现在工作时大部分时间都用mac, 自己的还是win,回头慢慢攒点钱,买个mac对比下 配置开发环境开发环境其实和在别的环境下都差不多 配置终端win下推荐xshell, 可惜mac下没有, iTerm2 配合sshpass, 可以勉强一战 配置shell首推oh-my-zsh, 具体安装配置先略过, 占个坑 配置tmux终端复用神器, 安装配置也占坑 MAC软件推荐常用软件推荐 邮件推荐Foxmail, 免费而且功能强大,自带的有内存泄漏 PDF阅读器推荐Foxit Reader 微软家的office系列, 苹果自带的还是不行, 不是一个数量级 远程Team Viewer 连接数据库, Sequel Pro 编辑器: Sublime Text 软件下载常用的免费软件, 可以去App Store中下载, 但一般更新比较慢, 直接去官网下载也可以,mac家有很多是付费使用,被微软和大环境下惯坏的我, 还是不太适应, 关键还是穷.如果大家手中富裕, 还是推荐购买, 实在不行, 可以去下面三家看看,也许有收获, 没有的话就用伟大的谷歌 MACX MAC苹果盒子 0DayDown]]></content>
+      <content type="text"><![CDATA[接触mac接近半年时间了, 也说不上有多喜欢,至少现在我就发现一个优点, 就是觉得MAC主要就是开发方便点, 并没有什么装逼加成,Win系列也没那么烂.大家谁不是先接触的win系列, 不要过河拆桥, 用上mac就骂win, 现在工作时大部分时间都用mac, 自己的还是win,回头慢慢攒点钱,买个mac对比下 配置开发环境开发环境其实和在别的环境下都差不多 配置终端win下推荐xshell, 可惜mac下没有, iTerm2 配合sshpass, 可以勉强一战 配置shell首推oh-my-zsh, 具体安装配置先略过, 占个坑 配置tmux终端复用神器, 安装配置也占坑 MAC软件推荐常用软件推荐 邮件推荐Foxmail, 免费而且功能强大,自带的有内存泄漏 PDF阅读器推荐Foxit Reader 微软家的office系列, 苹果自带的还是不行, 不是一个数量级 远程Team Viewer 连接数据库, Sequel Pro 编辑器: Sublime Text PopClip: 选择弹出一个小窗口, 可以方便的复制,搜索等, 有很多插件 Manico: 比Command + Tap 更方便的程序切换 Alfred: 大杀器 Cleanmymac: 清理MAC 软件下载常用的免费软件, 可以去App Store中下载, 但一般更新比较慢, 直接去官网下载也可以,mac家有很多是付费使用,被微软和大环境下惯坏的我, 还是不太适应, 关键还是穷.如果大家手中富裕, 还是推荐购买, 实在不行, 可以去下面三家看看,也许有收获, 没有的话就用伟大的谷歌 MACX MAC苹果盒子 0DayDown 注意: 有些软件下载安装后会提示安装包破坏, 可以在设置-&gt;安全性与隐私-&gt;允许从以下位置下载的应用-&gt; 选择任意来源 高效的macbook工作环境配置高效的macbook工作环境配置]]></content>
     </entry>
 
     
