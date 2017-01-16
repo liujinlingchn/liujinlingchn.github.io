@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/01/16/hexo-errors/</loc>
+    
+    <lastmod>2017-01-16T03:34:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/01/11/mac-install-ipython/</loc>
     
     <lastmod>2017-01-11T06:03:13.000Z</lastmod>
